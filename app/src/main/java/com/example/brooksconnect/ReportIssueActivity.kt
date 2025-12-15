@@ -301,7 +301,7 @@ class ReportIssueActivity : AppCompatActivity() {
         }
     }
 
-    private val GROQ_API_KEY = ""
+
     private val client = okhttp3.OkHttpClient()
 
     private suspend fun callGroqAi(text: String) {
